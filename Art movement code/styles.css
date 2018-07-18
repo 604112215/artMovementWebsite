@@ -1,0 +1,143 @@
+/*Change defult marging and padding to zero*/
+body{
+	margin:0;
+	padding:0;
+}
+
+/* HEADER STYLE*/
+
+header {
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin:0;
+	padding:0;
+
+	background-color: #505050;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   justify-content: left;
+}
+
+header a {
+	text-decoration:none;
+	color: white;
+}
+
+header h1 {
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 30;
+	text-align: left;
+	color: white;
+	padding: 0;
+	margin:1em;
+}
+
+nav ul{
+	list-style-type: none; 
+	text-align: center;
+	margin:2em;
+	padding:0;
+
+}
+
+nav li{
+	display: inline;
+	margin: 2em;
+}
+
+.fixedClass li{
+	display: inline;
+	margin: 2em;
+}
+
+nav a:hover{
+	color:black;
+	background-color: yellow;
+	}
+
+.hero-page {
+	width: 100%;
+	max-width: 1920;
+	display:block;
+	margin: auto;
+	margin-bottom:1em;
+}
+
+footer{
+	background-color: #505050;
+	color: white;
+	text-align:center;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+.social {
+width:3em;
+margin:1em;
+
+}
+
+/*LAYOUT*/
+/*This is stick block*/
+
+/*.stickyClass{
+    position: -webkit-sticky;  Safari 
+    position: sticky;
+    top: 0;
+}*/
+
+/*This is position in the black of header*/
+h1.fixedClass{
+    position: relative;	
+    top: 1.5em;
+	left: 2em;
+	margin:0;
+	width: 300px;
+}
+
+nav.fixedClass{	
+	position: relative;	
+	top: 1.5em;
+	left: 40em;
+	width: 300px;
+}
+
+.bar1 {
+	position: relative;
+    top: 0;
+}
+
+h2.relativeClass{
+	position: relative;
+	top:1em;
+	left: 2em;
+	text-align: left;
+
+}
+h3.absoluteClass{
+	position: absolute;
+    top: 0.5em;
+    right: 1em;
+/*    width: 200px;
+    height: 100px;*/
+/*    border: 3px solid #73AD21;
+*/}
+
+.constrainedClass{
+/*	display: flex;*/
+/*	flex-direction: row;
+*/	flex-wrap: wrap;
+	width: 100%;
+/*	background-color: purple;*/
+	justify-content: center;
+}
+
+.constrainedClass img{
+	width:10%;
+	margin-top: 2em
+	margin-left:5em;
+}
