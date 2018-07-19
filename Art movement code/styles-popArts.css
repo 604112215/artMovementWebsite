@@ -1,4 +1,3 @@
-/*Change defult marging and padding to zero*/
 body{
 	margin:0;
 	padding:0;
@@ -56,16 +55,122 @@ nav a:hover{
 	color:black;
 	background-color: yellow;
 	}
+/*------------------------------
+------------------------
+------------------------------*/
 
-.hero-page {
-	/*opacity: 0.5;*/
-	width: 100%;
-	max-width: 1920;
-	display:block;
-	margin: auto;
-	margin-bottom:1em;
+h1.popArt-1{
+	margin-top: 0; 
+	margin-left: 2%;
+	width:100%;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 48;
 }
 
+.popArt-1{
+	width:250px;
+	font-size: 12;
+	font-weight: lighter
+	padding:20em;
+/*	background-color: grey;*/
+}
+.popArt-2 {
+
+	margin:1em;
+	/*padding: 2em;*/
+	display:block;
+	width:60%;
+	font-size: 14;
+	font-weight: bold;
+	/*background-color: green;*/
+}
+
+.flexBoxPopArt-1 {
+	width:80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin:auto;
+	padding:20;
+/*	background-color: red;*/
+}
+
+.popArt-3{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top:30em;
+	left: -3em;
+	z-index: -1;
+}
+.popArt-4{
+	position: absolute;
+	margin: 0;
+	top:10em;
+	right: 0em;
+	z-index: -1;
+}
+
+.barGallary {
+/*	background-color: green;*/
+	width:70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	margin:auto;
+	margin-bottom: 3em
+	padding:0;
+	
+}
+
+h2.relativeClass{
+	font-family: 'Coda Caption', sans-serif;
+	font-size:16;
+
+}
+
+h3.absoluteClass{
+	font-family: 'Markazi Text', serif;
+	text-align: left;
+	color: grey;
+	font-size: 10;
+
+}
+
+
+div.constrainedClass{ 
+	font-family: 'Markazi Text', serif;
+	text-align: center;
+	/*padding: 3em;*/
+	margin:auto;
+/*	margin-left:7.5em;*/
+}
+
+.constrainedClass{
+	/*background-color: red;*/
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	justify-content: space-evenly;
+	padding: 0;
+	margin-left:3em;
+}
+
+.constrainedClass img{
+	/*margin: 1em;*/
+	width:200;
+	height: 150;
+}
+/*-----------------------------
+---------------------
+---------------------
+
+---------------------
+---------------------
+---------------------
+
+--------------------------------------*/
 footer{
 	background-color: #505050;
 	color: white;
@@ -82,48 +187,6 @@ width:1.5em;
 margin:1em;
 }
 
-
-
-
-.bar1 {
-	width:70%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: baseline;
-	margin:auto;
-	padding:0;
-	
-}
-
-h2.relativeClass{
-	font-family: 'Coda Caption', sans-serif;
-	font-size:16;
-
-}
-h3.relativeClass{
-font-size:2;
-}
-
-p.movementName{
-	padding: 0;
-	margin:0;
-	margin-left:7.5em;
-}
-
-.constrainedClass{
-	display: flex;
-	flex-wrap: wrap;
-	width: 80%;
-	justify-content: center;
-	margin:auto;
-}
-
-.constrainedClass img{
-	margin: 1em;
-	width:292;
-	height: 235;
-}
 
 div.flexContioner{
 /*	background-color: red;*/
